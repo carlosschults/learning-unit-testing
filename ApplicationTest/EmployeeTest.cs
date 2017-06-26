@@ -9,5 +9,10 @@ namespace ApplicationTest
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void IntroduceMethodShouldWorkCorrectly()
+        {
+        }
     }
 }
