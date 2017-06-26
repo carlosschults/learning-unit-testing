@@ -10,20 +10,20 @@ namespace LearningUnitTesting
     {
         public string Name { get; private set; }
         
-        public string Role { get; private set; }
+        public string JobTitle { get; private set; }
 
         public decimal Salary { get; private set; }
 
-        public Employee(string name, string role, decimal salary)
+        public Employee(string name, string jobTitle, decimal salary)
         {
             Name = name;
-            Role = role;
+            JobTitle = jobTitle;
             Salary = salary;
         }
 
         public string Introduce()
         {
-            return $"Hi! My name is {Name} and I work as a {Role}.";
+            return $"Hi! My name is {Name} and I work as a {JobTitle}.";
         }
 
         public void GiveRaise(decimal percentage)
