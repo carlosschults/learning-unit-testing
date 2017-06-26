@@ -2,7 +2,6 @@
 
 namespace ApplicationTest
 {
-    [TestFixture]
     class EmployeeTest
     {
         [Test]
