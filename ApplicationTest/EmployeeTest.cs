@@ -5,9 +5,9 @@ namespace ApplicationTest
     class EmployeeTest
     {
         [Test]
-        public void OurFirstTestMethod()
+        public void MyFirstTestMethod()
         {
-
+            Assert.Pass();
         }
     }
 }
