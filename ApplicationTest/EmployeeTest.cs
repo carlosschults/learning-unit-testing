@@ -7,7 +7,7 @@ namespace ApplicationTest
         [Test]
         public void MyFirstTestMethod()
         {
-            Assert.Pass();
+            Assert.Fail();
         }
     }
 }
