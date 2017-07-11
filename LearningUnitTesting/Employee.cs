@@ -23,7 +23,7 @@ namespace Application
 
         public string Introduce()
         {
-            return $"Hi! My name is {Name} and I work as a JobTitle.";
+            return $"Hi! My name is {Name} and I work as a {JobTitle}.";
         }
 
         public void GiveRaise(decimal percentage)
