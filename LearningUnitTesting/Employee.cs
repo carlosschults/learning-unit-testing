@@ -28,7 +28,7 @@ namespace Application
 
         public void GiveRaise(decimal percentage)
         {
-            Salary = Salary + (Salary * (percentage / 100));
+            Salary = 5;
         }
     }
 }
