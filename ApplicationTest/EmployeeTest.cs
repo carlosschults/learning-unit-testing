@@ -41,5 +41,21 @@ namespace ApplicationTest
             // assert
             Assert.AreEqual(expected, newSalary);
         }
+
+        [Test]
+        public void GiveNegativeRaiseShouldHaveNoEffectOnSalary()
+        {
+            // arrange
+            var raise = -10;
+            var salary = 100;
+            var sut = new Employee("Bob", "Tester", salary);
+
+            // act
+            sut.GiveRaise(raise);
+            var newSalary = sut.Salary;
+
+            // assert
+            Assert.AreEqual(salary, newSalary);
+        }
     }
 }
