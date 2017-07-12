@@ -25,5 +25,21 @@ namespace ApplicationTest
             // assert
             Assert.AreEqual(expected, result);
         }
+
+        [Test]
+        public void GiveTenPercentRaiseShouldRaiseTheSalaryFrom100To110()
+        {
+            // arrange
+            var raise = 10;
+            var sut = new Employee("Bob", "Tester", 100);
+            var expected = 110;
+
+            // act
+            sut.GiveRaise(raise);
+            var newSalary = sut.Salary;
+
+            // assert
+            Assert.AreEqual(expected, newSalary);
+        }
     }
 }
