@@ -28,6 +28,8 @@ namespace Application
 
         public void GiveRaise(decimal percentage)
         {
+            if (percentage < 0)
+                return;
             Salary = Salary + (Salary * (percentage / 100));
         }
     }
