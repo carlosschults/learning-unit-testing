@@ -4,7 +4,7 @@ Companion project to the second part of my "Unit Testing For Beginners" series o
 
 ## In English
  
-- [Unit Testing For Beginners, Part 1](http://carlosschults.net/en/unit-testing-for-beginners-part2/)
+- [Unit Testing For Beginners, Part 2](http://carlosschults.net/en/unit-testing-for-beginners-part2/)
   
 ## In Brazilian Portuguese:
  
